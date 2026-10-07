@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Indian Food</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #d35400;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #8e3200;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #d35400;
+            font-size: 30px;
+        }
+
+        .intro {
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .food-container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .food-card {
+            background-color: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .food-card h3 {
+            color: #d35400;
+        }
+
+        .food-card p {
+            line-height: 1.5;
+        }
+
+        .regions {
+            background-color: #ffe8d6;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #d35400;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff0e6;
+        }
+
+        footer {
+            background-color: #8e3200;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🍛 Taste of India</h1>
+        <p>Explore the Rich and Diverse World of Indian Cuisine</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#regions">Regions</a>
+        <a href="#ingredients">Ingredients</a>
+    </nav>
+
+    <!-- About Indian Food -->
+    <section id="about">
+        <h2>About Indian Food</h2>
+
+        <p class="intro">
+            Indian cuisine is one of the most diverse cuisines in the world.
+            It is famous for its rich flavors, colorful dishes and variety of
+            spices. Different regions of India have their own traditional
+            foods, cooking styles and ingredients.
+        </p>
+    </section>
+
+    <!-- Popular Dishes -->
+    <section id="dishes">
+        <h2>Popular Indian Dishes</h2>
+
+        <div class="food-container">
+
+            <div class="food-card">
+                <h3>🍛 Biryani</h3>
+                <p>
+                    A flavorful rice dish prepared with spices, rice,
+                    vegetables or meat. Hyderabad is especially famous
+                    for its delicious biryani.
+                </p>
+            </div>
+
+            <div class="food-card">
+                <h3>🥘 Butter Chicken</h3>
+                <p>
+                    A popular North Indian dish made with chicken,
+                    tomato-based gravy, butter and aromatic spices.
+                </p>
+            </div>
+
+            <div class="food-card">
+                <h3>🥞 Masala Dosa</h3>
+                <p>
+                    A crispy South Indian dish made from fermented rice
+                    and lentil batter, usually served with potato filling.
+                </p>
+            </div>
+
+            <div class="food-card">
+                <h3>🍲 Idli & Sambar</h3>
+                <p>
+                    Soft steamed rice cakes served with spicy lentil-based
+                    sambar and coconut chutney.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Regional Cuisine -->
+    <section id="regions" class="regions">
+        <h2>Regional Indian Cuisine</h2>
+
+        <div class="food-container">
+
+            <div class="food-card">
+                <h3>North India</h3>
+                <p>
+                    Famous for naan, butter chicken, paneer dishes,
+                    parathas and rich gravies.
+                </p>
+            </div>
+
+            <div class="food-card">
+                <h3>South India</h3>
+                <p>
+                    Known for dosa, idli, sambar, rasam and coconut-based
+                    dishes.
+                </p>
+            </div>
+
+            <div class="food-card">
+                <h3>West India</h3>
+                <p>
+                    Includes Gujarati, Maharashtrian and Goan cuisine,
+                    with dishes such as dhokla, pav bhaji and seafood.
+                </p>
+            </div>
+
+            <div class="food-card">
+                <h3>East India</h3>
+                <p>
+                    Famous for Bengali sweets, fish dishes, rice-based
+                    meals and traditional desserts.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Ingredients -->
+    <section id="ingredients">
+        <h2>Common Indian Ingredients</h2>
+
+        <table>
+            <tr>
+                <th>Ingredient</th>
+                <th>Use</th>
+                <th>Example Dish</th>
+            </tr>
+
+            <tr>
+                <td>Turmeric</td>
+                <td>Adds color and flavor</td>
+                <td>Curries</td>
+            </tr>
+
+            <tr>
+                <td>Cumin</td>
+                <td>Adds earthy flavor</td>
+                <td>Jeera Rice</td>
+            </tr>
+
+            <tr>
+                <td>Cardamom</td>
+                <td>Adds sweet aroma</td>
+                <td>Biryani / Tea</td>
+            </tr>
+
+            <tr>
+                <td>Chilli</td>
+                <td>Adds spice</td>
+                <td>Curries</td>
+            </tr>
+
+            <tr>
+                <td>Coriander</td>
+                <td>Adds fresh flavor</td>
+                <td>Chutneys / Curries</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Taste of India | Indian Food & Culture</p>
+    </footer>
+
+</body>
+
+</html>
